@@ -5,8 +5,6 @@
 <body>
 <?php
 if(isset($_POST['tempel'])) {
-// change the name below for the folder you want
-
 $judul = $_POST['judul'];
 $kode = $_POST['kode'];
 $kode = str_replace('<', '&lt;', $kode);
@@ -26,25 +24,14 @@ if( is_dir($dir) === false )
 }
 
 $file = fopen($sdir .'/'. $dir . '/' . $file_to_write,"w");
-
-// a different way to write content into
-// fwrite($file,"Hello World.");
-
 fwrite($file, $content_to_write);
-
-// closes the file
 fclose($file);
-
-// this will show the created file from the created folder on screen
 include $sdir .'/'. $dir . '/' . $file_to_write;?>
 <meta http-equiv="refresh" content="=0;URL=t/<?php echo $dir?>" />
 <?php } ?>
 
 <?php
- //this will get your ip
  $this_is_the_ip = $_SERVER['REMOTE_ADDR'];
-
- //write to some file, this will write to the directory where this executes
  file_put_contents("acc-log.txt", date("Y-m-d") . " " . $this_is_the_ip . "\n", FILE_APPEND);
 ?>
 
