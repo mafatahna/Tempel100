@@ -1,5 +1,5 @@
-# TEMPEL 100 Log
-versi 1.0
+# TEMPEL 100
+## Versi 1.0
  - Pestebin tanpa database.
  - Tampilan dasar html
 
