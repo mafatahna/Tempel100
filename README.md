@@ -1,6 +1,6 @@
 # TEMPEL 100
 
-Pastebin sederhana tanpa database untuk menempel dan berbagi kode.
+Pastebin sederhana tanpa database untuk menempel dan berbagi kode 
 
 ## Versi 1.1
 
@@ -8,7 +8,7 @@ Pastebin sederhana tanpa database untuk menempel dan berbagi kode.
 - Tampilan compact dengan Bootstrap 5
 - Font **Source Code Pro** untuk area kode
 - Penomoran URL otomatis mulai dari 100 hingga 999
-- Arsip otomatis saat melewati angka 999
+- Arsip otomatis saat melewati angka 999 
 
 ## Daftar Perbaikan (v1.1)
 
@@ -52,6 +52,4 @@ Pastebin sederhana tanpa database untuk menempel dan berbagi kode.
 ## Catatan
 
 - URL tempel mulai dari **100**, setelah **999** seluruh file diarsipkan dan link direset ke **100**
-- Butuh koneksi internet untuk CDN Bootstrap dan Google Fonts (Source Code Pro)
-
-## 
+- Butuh koneksi internet untuk CDN Bootstrap dan Google Fonts
