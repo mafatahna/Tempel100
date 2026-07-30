@@ -53,3 +53,5 @@ Pastebin sederhana tanpa database untuk menempel dan berbagi kode.
 
 - URL tempel mulai dari **100**, setelah **999** seluruh file diarsipkan dan link direset ke **100**
 - Butuh koneksi internet untuk CDN Bootstrap dan Google Fonts (Source Code Pro)
+
+## 
